@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = week0_tutorials.lib.talker:main
+subsciber = week0_tutorials.lib.listener:main
+

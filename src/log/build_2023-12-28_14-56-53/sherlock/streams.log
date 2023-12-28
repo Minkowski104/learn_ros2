@@ -1,0 +1,28 @@
+[2.601s] Invoking command in '/home/mink/projects/learn_ws/src/build/sherlock': PYTHONPATH=/home/mink/projects/learn_ws/src/build/sherlock/prefix_override:/home/mink/projects/learn_ws/src/install/sherlock/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mink/projects/learn_ws/src/build/sherlock/build --no-deps install_data
+[3.073s] running develop
+[3.173s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.174s]   warnings.warn(
+[3.194s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.194s]   warnings.warn(
+[3.523s] running egg_info
+[3.523s] creating sherlock.egg-info
+[3.524s] writing sherlock.egg-info/PKG-INFO
+[3.524s] writing dependency_links to sherlock.egg-info/dependency_links.txt
+[3.524s] writing entry points to sherlock.egg-info/entry_points.txt
+[3.525s] writing requirements to sherlock.egg-info/requires.txt
+[3.525s] writing top-level names to sherlock.egg-info/top_level.txt
+[3.525s] writing manifest file 'sherlock.egg-info/SOURCES.txt'
+[3.529s] reading manifest file 'sherlock.egg-info/SOURCES.txt'
+[3.530s] writing manifest file 'sherlock.egg-info/SOURCES.txt'
+[3.533s] running build_ext
+[3.533s] Creating /home/mink/projects/learn_ws/src/install/sherlock/lib/python3.10/site-packages/sherlock.egg-link (link to .)
+[3.534s] Installing sherlock1 script to /home/mink/projects/learn_ws/src/install/sherlock/lib/sherlock
+[3.537s] 
+[3.537s] Installed /home/mink/projects/learn_ws/src/build/sherlock
+[3.537s] running install_data
+[3.537s] creating /home/mink/projects/learn_ws/src/install/sherlock/share/ament_index
+[3.538s] creating /home/mink/projects/learn_ws/src/install/sherlock/share/ament_index/resource_index
+[3.538s] creating /home/mink/projects/learn_ws/src/install/sherlock/share/ament_index/resource_index/packages
+[3.538s] copying resource/sherlock -> /home/mink/projects/learn_ws/src/install/sherlock/share/ament_index/resource_index/packages
+[3.539s] copying package.xml -> /home/mink/projects/learn_ws/src/install/sherlock/share/sherlock
+[3.754s] Invoked command in '/home/mink/projects/learn_ws/src/build/sherlock' returned '0': PYTHONPATH=/home/mink/projects/learn_ws/src/build/sherlock/prefix_override:/home/mink/projects/learn_ws/src/install/sherlock/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mink/projects/learn_ws/src/build/sherlock/build --no-deps install_data

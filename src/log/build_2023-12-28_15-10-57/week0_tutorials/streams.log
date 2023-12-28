@@ -1,0 +1,22 @@
+[1.895s] Invoking command in '/home/mink/projects/learn_ws/src/build/week0_tutorials': PYTHONPATH=/home/mink/projects/learn_ws/src/build/week0_tutorials/prefix_override:/home/mink/projects/learn_ws/src/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mink/projects/learn_ws/src/build/week0_tutorials/build --no-deps install_data
+[2.369s] running develop
+[2.370s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.370s]   warnings.warn(
+[2.373s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.373s]   warnings.warn(
+[2.679s] running egg_info
+[2.680s] writing week0_tutorials.egg-info/PKG-INFO
+[2.680s] writing dependency_links to week0_tutorials.egg-info/dependency_links.txt
+[2.681s] writing entry points to week0_tutorials.egg-info/entry_points.txt
+[2.682s] writing requirements to week0_tutorials.egg-info/requires.txt
+[2.682s] writing top-level names to week0_tutorials.egg-info/top_level.txt
+[2.683s] reading manifest file 'week0_tutorials.egg-info/SOURCES.txt'
+[2.685s] writing manifest file 'week0_tutorials.egg-info/SOURCES.txt'
+[2.687s] running build_ext
+[2.689s] Creating /home/mink/projects/learn_ws/src/install/week0_tutorials/lib/python3.10/site-packages/week0-tutorials.egg-link (link to .)
+[2.691s] Installing publisher script to /home/mink/projects/learn_ws/src/install/week0_tutorials/lib/week0_tutorials
+[2.691s] Installing subsciber script to /home/mink/projects/learn_ws/src/install/week0_tutorials/lib/week0_tutorials
+[2.692s] 
+[2.692s] Installed /home/mink/projects/learn_ws/src/build/week0_tutorials
+[2.693s] running install_data
+[2.852s] Invoked command in '/home/mink/projects/learn_ws/src/build/week0_tutorials' returned '0': PYTHONPATH=/home/mink/projects/learn_ws/src/build/week0_tutorials/prefix_override:/home/mink/projects/learn_ws/src/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mink/projects/learn_ws/src/build/week0_tutorials/build --no-deps install_data

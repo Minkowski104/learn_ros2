@@ -1,0 +1,228 @@
+[0.000000] (-) TimerEvent: {}
+[0.000442] (sherlock) JobQueued: {'identifier': 'sherlock', 'dependencies': OrderedDict()}
+[0.000544] (week0_tutorials) JobQueued: {'identifier': 'week0_tutorials', 'dependencies': OrderedDict()}
+[0.000604] (sherlock) JobStarted: {'identifier': 'sherlock'}
+[0.092537] (week0_tutorials) JobStarted: {'identifier': 'week0_tutorials'}
+[0.098451] (-) TimerEvent: {}
+[0.199063] (-) TimerEvent: {}
+[0.217102] (sherlock) JobProgress: {'identifier': 'sherlock', 'progress': 'cmake'}
+[0.219050] (sherlock) JobProgress: {'identifier': 'sherlock', 'progress': 'build'}
+[0.220163] (sherlock) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mink/projects/learn_ws/build/sherlock', '--', '-j4', '-l4'], 'cwd': '/home/mink/projects/learn_ws/build/sherlock', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mink'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mink'), ('OLDPWD', '/home/mink/projects/learn_ws/src/sherlock/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1390'), ('SYSTEMD_EXEC_PID', '1719'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6699'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mink'), ('JOURNAL_STREAM', '8:30524'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mink'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mink-Lenovo-V110-15ISK:@/tmp/.ICE-unix/1546,unix/mink-Lenovo-V110-15ISK:/tmp/.ICE-unix/1546'), ('INVOCATION_ID', '062d3dbd574d43ae9b78ea2de8125894'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VI9LG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:cfc785b5-7609-42c8-a865-408c8e7aa759'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mink/projects/learn_ws/build/sherlock'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.299227] (-) TimerEvent: {}
+[0.314146] (sherlock) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target anderson\x1b[0m\n'}
+[0.349302] (sherlock) StdoutLine: {'line': b'[ 33%] Built target sherlock2\n'}
+[0.375635] (sherlock) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/anderson.dir/src/anderson.cpp.o\x1b[0m\n'}
+[0.376023] (sherlock) StdoutLine: {'line': b'[ 83%] Built target sherlock1\n'}
+[0.399341] (-) TimerEvent: {}
+[0.499794] (-) TimerEvent: {}
+[0.601090] (-) TimerEvent: {}
+[0.701986] (-) TimerEvent: {}
+[0.802442] (-) TimerEvent: {}
+[0.903496] (-) TimerEvent: {}
+[1.005020] (-) TimerEvent: {}
+[1.105606] (-) TimerEvent: {}
+[1.206068] (-) TimerEvent: {}
+[1.306552] (-) TimerEvent: {}
+[1.407056] (-) TimerEvent: {}
+[1.507720] (-) TimerEvent: {}
+[1.608380] (-) TimerEvent: {}
+[1.613196] (week0_tutorials) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mink/projects/learn_ws/build/week0_tutorials/build', '--no-deps', 'install_data'], 'cwd': '/home/mink/projects/learn_ws/build/week0_tutorials', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'mink', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mink', 'OLDPWD': '/home/mink/projects/learn_ws/src/sherlock/launch', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1390', 'SYSTEMD_EXEC_PID': '1719', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6699', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mink', 'JOURNAL_STREAM': '8:30524', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mink', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mink-Lenovo-V110-15ISK:@/tmp/.ICE-unix/1546,unix/mink-Lenovo-V110-15ISK:/tmp/.ICE-unix/1546', 'INVOCATION_ID': '062d3dbd574d43ae9b78ea2de8125894', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VI9LG2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cfc785b5-7609-42c8-a865-408c8e7aa759', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mink/projects/learn_ws/build/week0_tutorials', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mink/projects/learn_ws/build/week0_tutorials/prefix_override:/home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.708507] (-) TimerEvent: {}
+[1.809007] (-) TimerEvent: {}
+[1.909466] (-) TimerEvent: {}
+[2.009932] (-) TimerEvent: {}
+[2.110399] (-) TimerEvent: {}
+[2.166968] (week0_tutorials) StdoutLine: {'line': b'running develop\n'}
+[2.168280] (week0_tutorials) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.168693] (week0_tutorials) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.171096] (week0_tutorials) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.171451] (week0_tutorials) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.210528] (-) TimerEvent: {}
+[2.310989] (-) TimerEvent: {}
+[2.411447] (-) TimerEvent: {}
+[2.511910] (-) TimerEvent: {}
+[2.540732] (week0_tutorials) StdoutLine: {'line': b'running egg_info\n'}
+[2.541250] (week0_tutorials) StdoutLine: {'line': b'writing week0_tutorials.egg-info/PKG-INFO\n'}
+[2.541555] (week0_tutorials) StdoutLine: {'line': b'writing dependency_links to week0_tutorials.egg-info/dependency_links.txt\n'}
+[2.542058] (week0_tutorials) StdoutLine: {'line': b'writing entry points to week0_tutorials.egg-info/entry_points.txt\n'}
+[2.542369] (week0_tutorials) StdoutLine: {'line': b'writing requirements to week0_tutorials.egg-info/requires.txt\n'}
+[2.542639] (week0_tutorials) StdoutLine: {'line': b'writing top-level names to week0_tutorials.egg-info/top_level.txt\n'}
+[2.544029] (week0_tutorials) StdoutLine: {'line': b"reading manifest file 'week0_tutorials.egg-info/SOURCES.txt'\n"}
+[2.546191] (week0_tutorials) StdoutLine: {'line': b"writing manifest file 'week0_tutorials.egg-info/SOURCES.txt'\n"}
+[2.553500] (week0_tutorials) StdoutLine: {'line': b'running build_ext\n'}
+[2.553872] (week0_tutorials) StdoutLine: {'line': b'Creating /home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages/week0-tutorials.egg-link (link to .)\n'}
+[2.556947] (week0_tutorials) StdoutLine: {'line': b'Installing publisher script to /home/mink/projects/learn_ws/install/week0_tutorials/lib/week0_tutorials\n'}
+[2.557385] (week0_tutorials) StdoutLine: {'line': b'Installing subsciber script to /home/mink/projects/learn_ws/install/week0_tutorials/lib/week0_tutorials\n'}
+[2.557666] (week0_tutorials) StdoutLine: {'line': b'\n'}
+[2.557919] (week0_tutorials) StdoutLine: {'line': b'Installed /home/mink/projects/learn_ws/build/week0_tutorials\n'}
+[2.558164] (week0_tutorials) StdoutLine: {'line': b'running install_data\n'}
+[2.612049] (-) TimerEvent: {}
+[2.614552] (week0_tutorials) CommandEnded: {'returncode': 0}
+[2.712196] (-) TimerEvent: {}
+[2.774953] (week0_tutorials) JobEnded: {'identifier': 'week0_tutorials', 'rc': 0}
+[2.812346] (-) TimerEvent: {}
+[2.912722] (-) TimerEvent: {}
+[3.013282] (-) TimerEvent: {}
+[3.113749] (-) TimerEvent: {}
+[3.214346] (-) TimerEvent: {}
+[3.314924] (-) TimerEvent: {}
+[3.415325] (-) TimerEvent: {}
+[3.515948] (-) TimerEvent: {}
+[3.616546] (-) TimerEvent: {}
+[3.717203] (-) TimerEvent: {}
+[3.817715] (-) TimerEvent: {}
+[3.918125] (-) TimerEvent: {}
+[4.018515] (-) TimerEvent: {}
+[4.118900] (-) TimerEvent: {}
+[4.219321] (-) TimerEvent: {}
+[4.319709] (-) TimerEvent: {}
+[4.420094] (-) TimerEvent: {}
+[4.520488] (-) TimerEvent: {}
+[4.620885] (-) TimerEvent: {}
+[4.721303] (-) TimerEvent: {}
+[4.821760] (-) TimerEvent: {}
+[4.922237] (-) TimerEvent: {}
+[5.022717] (-) TimerEvent: {}
+[5.123115] (-) TimerEvent: {}
+[5.223541] (-) TimerEvent: {}
+[5.324050] (-) TimerEvent: {}
+[5.424497] (-) TimerEvent: {}
+[5.524947] (-) TimerEvent: {}
+[5.625399] (-) TimerEvent: {}
+[5.725836] (-) TimerEvent: {}
+[5.826224] (-) TimerEvent: {}
+[5.926674] (-) TimerEvent: {}
+[6.027139] (-) TimerEvent: {}
+[6.127587] (-) TimerEvent: {}
+[6.228028] (-) TimerEvent: {}
+[6.328468] (-) TimerEvent: {}
+[6.428931] (-) TimerEvent: {}
+[6.529364] (-) TimerEvent: {}
+[6.629809] (-) TimerEvent: {}
+[6.730250] (-) TimerEvent: {}
+[6.830732] (-) TimerEvent: {}
+[6.931183] (-) TimerEvent: {}
+[7.031624] (-) TimerEvent: {}
+[7.132069] (-) TimerEvent: {}
+[7.232565] (-) TimerEvent: {}
+[7.333031] (-) TimerEvent: {}
+[7.433521] (-) TimerEvent: {}
+[7.534019] (-) TimerEvent: {}
+[7.634442] (-) TimerEvent: {}
+[7.734863] (-) TimerEvent: {}
+[7.835285] (-) TimerEvent: {}
+[7.935732] (-) TimerEvent: {}
+[8.036146] (-) TimerEvent: {}
+[8.136562] (-) TimerEvent: {}
+[8.236952] (-) TimerEvent: {}
+[8.337371] (-) TimerEvent: {}
+[8.437874] (-) TimerEvent: {}
+[8.538387] (-) TimerEvent: {}
+[8.638874] (-) TimerEvent: {}
+[8.739412] (-) TimerEvent: {}
+[8.840006] (-) TimerEvent: {}
+[8.940483] (-) TimerEvent: {}
+[9.040965] (-) TimerEvent: {}
+[9.141426] (-) TimerEvent: {}
+[9.241922] (-) TimerEvent: {}
+[9.342398] (-) TimerEvent: {}
+[9.442879] (-) TimerEvent: {}
+[9.543349] (-) TimerEvent: {}
+[9.643838] (-) TimerEvent: {}
+[9.744287] (-) TimerEvent: {}
+[9.844745] (-) TimerEvent: {}
+[9.945196] (-) TimerEvent: {}
+[10.045639] (-) TimerEvent: {}
+[10.146095] (-) TimerEvent: {}
+[10.246551] (-) TimerEvent: {}
+[10.347026] (-) TimerEvent: {}
+[10.447443] (-) TimerEvent: {}
+[10.547860] (-) TimerEvent: {}
+[10.648285] (-) TimerEvent: {}
+[10.748705] (-) TimerEvent: {}
+[10.849192] (-) TimerEvent: {}
+[10.949652] (-) TimerEvent: {}
+[11.050099] (-) TimerEvent: {}
+[11.150530] (-) TimerEvent: {}
+[11.250961] (-) TimerEvent: {}
+[11.351565] (-) TimerEvent: {}
+[11.452008] (-) TimerEvent: {}
+[11.552466] (-) TimerEvent: {}
+[11.652914] (-) TimerEvent: {}
+[11.753309] (-) TimerEvent: {}
+[11.853771] (-) TimerEvent: {}
+[11.954220] (-) TimerEvent: {}
+[12.054664] (-) TimerEvent: {}
+[12.155157] (-) TimerEvent: {}
+[12.255597] (-) TimerEvent: {}
+[12.356171] (-) TimerEvent: {}
+[12.456677] (-) TimerEvent: {}
+[12.557160] (-) TimerEvent: {}
+[12.657647] (-) TimerEvent: {}
+[12.758144] (-) TimerEvent: {}
+[12.858670] (-) TimerEvent: {}
+[12.959130] (-) TimerEvent: {}
+[13.059589] (-) TimerEvent: {}
+[13.160072] (-) TimerEvent: {}
+[13.260644] (-) TimerEvent: {}
+[13.361163] (-) TimerEvent: {}
+[13.461636] (-) TimerEvent: {}
+[13.562074] (-) TimerEvent: {}
+[13.662516] (-) TimerEvent: {}
+[13.762966] (-) TimerEvent: {}
+[13.863452] (-) TimerEvent: {}
+[13.963947] (-) TimerEvent: {}
+[14.064423] (-) TimerEvent: {}
+[14.164933] (-) TimerEvent: {}
+[14.265409] (-) TimerEvent: {}
+[14.365865] (-) TimerEvent: {}
+[14.466404] (-) TimerEvent: {}
+[14.566857] (-) TimerEvent: {}
+[14.667298] (-) TimerEvent: {}
+[14.767716] (-) TimerEvent: {}
+[14.868295] (-) TimerEvent: {}
+[14.968728] (-) TimerEvent: {}
+[15.069146] (-) TimerEvent: {}
+[15.169608] (-) TimerEvent: {}
+[15.249145] (sherlock) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable anderson\x1b[0m\n'}
+[15.269735] (-) TimerEvent: {}
+[15.370155] (-) TimerEvent: {}
+[15.470646] (-) TimerEvent: {}
+[15.571129] (-) TimerEvent: {}
+[15.671692] (-) TimerEvent: {}
+[15.772092] (-) TimerEvent: {}
+[15.872479] (-) TimerEvent: {}
+[15.972883] (-) TimerEvent: {}
+[16.073248] (-) TimerEvent: {}
+[16.093357] (sherlock) StdoutLine: {'line': b'[100%] Built target anderson\n'}
+[16.114980] (sherlock) CommandEnded: {'returncode': 0}
+[16.170782] (sherlock) JobProgress: {'identifier': 'sherlock', 'progress': 'install'}
+[16.173390] (-) TimerEvent: {}
+[16.187459] (sherlock) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mink/projects/learn_ws/build/sherlock'], 'cwd': '/home/mink/projects/learn_ws/build/sherlock', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mink'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mink'), ('OLDPWD', '/home/mink/projects/learn_ws/src/sherlock/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1390'), ('SYSTEMD_EXEC_PID', '1719'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6699'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mink'), ('JOURNAL_STREAM', '8:30524'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mink'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mink-Lenovo-V110-15ISK:@/tmp/.ICE-unix/1546,unix/mink-Lenovo-V110-15ISK:/tmp/.ICE-unix/1546'), ('INVOCATION_ID', '062d3dbd574d43ae9b78ea2de8125894'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VI9LG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:cfc785b5-7609-42c8-a865-408c8e7aa759'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mink/projects/learn_ws/build/sherlock'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.202184] (sherlock) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.203292] (sherlock) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.204018] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/lib/sherlock/sherlock1\n'}
+[16.204497] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/lib/sherlock/sherlock2\n'}
+[16.204952] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/lib/sherlock/anderson\n'}
+[16.205764] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/ament_index/resource_index/package_run_dependencies/sherlock\n'}
+[16.206531] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/ament_index/resource_index/parent_prefix_path/sherlock\n'}
+[16.207114] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/environment/ament_prefix_path.sh\n'}
+[16.207488] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/environment/ament_prefix_path.dsv\n'}
+[16.207938] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/environment/path.sh\n'}
+[16.208492] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/environment/path.dsv\n'}
+[16.208825] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/local_setup.bash\n'}
+[16.209479] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/local_setup.sh\n'}
+[16.209924] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/local_setup.zsh\n'}
+[16.210389] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/local_setup.dsv\n'}
+[16.210737] (sherlock) StdoutLine: {'line': b'-- Symlinking: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/package.dsv\n'}
+[16.227086] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/ament_index/resource_index/packages/sherlock\n'}
+[16.227565] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/cmake/sherlockConfig.cmake\n'}
+[16.227942] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/cmake/sherlockConfig-version.cmake\n'}
+[16.228391] (sherlock) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/package.xml\n'}
+[16.231900] (sherlock) CommandEnded: {'returncode': 0}
+[16.274419] (-) TimerEvent: {}
+[16.374948] (-) TimerEvent: {}
+[16.475416] (-) TimerEvent: {}
+[16.576051] (-) TimerEvent: {}
+[16.596533] (sherlock) JobEnded: {'identifier': 'sherlock', 'rc': 0}
+[16.597940] (-) EventReactorShutdown: {}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20231228-1015-Experimental"
+	Name="mink-Lenovo-V110-15ISK"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="mink-Lenovo-V110-15ISK"
+	OSRelease="6.2.0-39-generic"
+	OSVersion="#40~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 16 10:53:04 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="78"
+	ProcessorCacheSize="2048"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="5557"
+	TotalPhysicalMemory="11750"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2099.98"
+	>
+	<Testing>
+		<StartDateTime>Dec 28 16:03 IST</StartDateTime>
+		<StartTestTime>1703759614</StartTestTime>
+		<TestList/>
+		<EndDateTime>Dec 28 16:03 IST</EndDateTime>
+		<EndTestTime>1703759614</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

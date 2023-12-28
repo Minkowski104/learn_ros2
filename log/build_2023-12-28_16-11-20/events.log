@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.000550] (sherlock) JobQueued: {'identifier': 'sherlock', 'dependencies': OrderedDict()}
+[0.000631] (week0_tutorials) JobQueued: {'identifier': 'week0_tutorials', 'dependencies': OrderedDict()}
+[0.000672] (sherlock) JobStarted: {'identifier': 'sherlock'}
+[0.093621] (week0_tutorials) JobStarted: {'identifier': 'week0_tutorials'}
+[0.098611] (-) TimerEvent: {}
+[0.199023] (-) TimerEvent: {}
+[0.218697] (sherlock) JobProgress: {'identifier': 'sherlock', 'progress': 'cmake'}
+[0.220675] (sherlock) JobProgress: {'identifier': 'sherlock', 'progress': 'build'}
+[0.222201] (sherlock) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mink/projects/learn_ws/build/sherlock', '--', '-j4', '-l4'], 'cwd': '/home/mink/projects/learn_ws/build/sherlock', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mink'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mink'), ('OLDPWD', '/home/mink/projects/learn_ws/src/sherlock/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1390'), ('SYSTEMD_EXEC_PID', '1719'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6699'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mink'), ('JOURNAL_STREAM', '8:30524'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mink'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mink-Lenovo-V110-15ISK:@/tmp/.ICE-unix/1546,unix/mink-Lenovo-V110-15ISK:/tmp/.ICE-unix/1546'), ('INVOCATION_ID', '062d3dbd574d43ae9b78ea2de8125894'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VI9LG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:cfc785b5-7609-42c8-a865-408c8e7aa759'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mink/projects/learn_ws/build/sherlock'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.299157] (-) TimerEvent: {}
+[0.318908] (sherlock) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target anderson\x1b[0m\n'}
+[0.358720] (sherlock) StdoutLine: {'line': b'[ 33%] Built target sherlock1\n'}
+[0.374933] (sherlock) StdoutLine: {'line': b'[ 66%] Built target sherlock2\n'}
+[0.379828] (sherlock) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/anderson.dir/src/anderson.cpp.o\x1b[0m\n'}
+[0.399291] (-) TimerEvent: {}
+[0.500096] (-) TimerEvent: {}
+[0.600593] (-) TimerEvent: {}
+[0.701026] (-) TimerEvent: {}
+[0.801668] (-) TimerEvent: {}
+[0.902304] (-) TimerEvent: {}
+[1.002873] (-) TimerEvent: {}
+[1.103504] (-) TimerEvent: {}
+[1.208743] (-) TimerEvent: {}
+[1.310195] (-) TimerEvent: {}
+[1.410646] (-) TimerEvent: {}
+[1.511124] (-) TimerEvent: {}
+[1.611627] (-) TimerEvent: {}
+[1.712104] (-) TimerEvent: {}
+[1.762377] (week0_tutorials) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mink/projects/learn_ws/build/week0_tutorials/build', '--no-deps', 'install_data'], 'cwd': '/home/mink/projects/learn_ws/build/week0_tutorials', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'mink', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mink', 'OLDPWD': '/home/mink/projects/learn_ws/src/sherlock/launch', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1390', 'SYSTEMD_EXEC_PID': '1719', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6699', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mink', 'JOURNAL_STREAM': '8:30524', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mink', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mink-Lenovo-V110-15ISK:@/tmp/.ICE-unix/1546,unix/mink-Lenovo-V110-15ISK:/tmp/.ICE-unix/1546', 'INVOCATION_ID': '062d3dbd574d43ae9b78ea2de8125894', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VI9LG2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cfc785b5-7609-42c8-a865-408c8e7aa759', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mink/projects/learn_ws/build/week0_tutorials', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mink/projects/learn_ws/build/week0_tutorials/prefix_override:/home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.812231] (-) TimerEvent: {}
+[1.912845] (-) TimerEvent: {}
+[2.013346] (-) TimerEvent: {}
+[2.114001] (-) TimerEvent: {}
+[2.214648] (-) TimerEvent: {}
+[2.312821] (week0_tutorials) StdoutLine: {'line': b'running develop\n'}
+[2.313676] (week0_tutorials) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.314039] (week0_tutorials) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.314775] (-) TimerEvent: {}
+[2.316555] (week0_tutorials) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.316905] (week0_tutorials) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.414902] (-) TimerEvent: {}
+[2.515554] (-) TimerEvent: {}
+[2.616067] (-) TimerEvent: {}
+[2.691704] (week0_tutorials) StdoutLine: {'line': b'running egg_info\n'}
+[2.692194] (week0_tutorials) StdoutLine: {'line': b'writing week0_tutorials.egg-info/PKG-INFO\n'}
+[2.692709] (week0_tutorials) StdoutLine: {'line': b'writing dependency_links to week0_tutorials.egg-info/dependency_links.txt\n'}
+[2.693157] (week0_tutorials) StdoutLine: {'line': b'writing entry points to week0_tutorials.egg-info/entry_points.txt\n'}
+[2.693575] (week0_tutorials) StdoutLine: {'line': b'writing requirements to week0_tutorials.egg-info/requires.txt\n'}
+[2.694019] (week0_tutorials) StdoutLine: {'line': b'writing top-level names to week0_tutorials.egg-info/top_level.txt\n'}
+[2.696143] (week0_tutorials) StdoutLine: {'line': b"reading manifest file 'week0_tutorials.egg-info/SOURCES.txt'\n"}
+[2.698437] (week0_tutorials) StdoutLine: {'line': b"writing manifest file 'week0_tutorials.egg-info/SOURCES.txt'\n"}
+[2.701484] (week0_tutorials) StdoutLine: {'line': b'running build_ext\n'}
+[2.703289] (week0_tutorials) StdoutLine: {'line': b'Creating /home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages/week0-tutorials.egg-link (link to .)\n'}
+[2.705452] (week0_tutorials) StdoutLine: {'line': b'Installing publisher script to /home/mink/projects/learn_ws/install/week0_tutorials/lib/week0_tutorials\n'}
+[2.705942] (week0_tutorials) StdoutLine: {'line': b'Installing subsciber script to /home/mink/projects/learn_ws/install/week0_tutorials/lib/week0_tutorials\n'}
+[2.706458] (week0_tutorials) StdoutLine: {'line': b'\n'}
+[2.707103] (week0_tutorials) StdoutLine: {'line': b'Installed /home/mink/projects/learn_ws/build/week0_tutorials\n'}
+[2.707400] (week0_tutorials) StdoutLine: {'line': b'running install_data\n'}
+[2.716213] (-) TimerEvent: {}
+[2.766826] (week0_tutorials) CommandEnded: {'returncode': 0}
+[2.816356] (-) TimerEvent: {}
+[2.917612] (-) TimerEvent: {}
+[2.953037] (week0_tutorials) JobEnded: {'identifier': 'week0_tutorials', 'rc': 0}
+[3.017767] (-) TimerEvent: {}
+[3.118177] (-) TimerEvent: {}
+[3.218568] (-) TimerEvent: {}
+[3.319050] (-) TimerEvent: {}
+[3.419505] (-) TimerEvent: {}
+[3.519947] (-) TimerEvent: {}
+[3.620359] (-) TimerEvent: {}
+[3.720885] (-) TimerEvent: {}
+[3.821369] (-) TimerEvent: {}
+[3.921811] (-) TimerEvent: {}
+[4.022321] (-) TimerEvent: {}
+[4.122814] (-) TimerEvent: {}
+[4.223318] (-) TimerEvent: {}
+[4.323783] (-) TimerEvent: {}
+[4.424221] (-) TimerEvent: {}
+[4.524618] (-) TimerEvent: {}
+[4.625033] (-) TimerEvent: {}
+[4.725446] (-) TimerEvent: {}
+[4.825871] (-) TimerEvent: {}
+[4.926317] (-) TimerEvent: {}
+[5.026765] (-) TimerEvent: {}
+[5.127231] (-) TimerEvent: {}
+[5.214886] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:42:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.215341] (sherlock) StderrLine: {'line': b'   42 |   MinimalSubscriber(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[5.215560] (sherlock) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.227337] (-) TimerEvent: {}
+[5.327777] (-) TimerEvent: {}
+[5.428201] (-) TimerEvent: {}
+[5.528669] (-) TimerEvent: {}
+[5.629121] (-) TimerEvent: {}
+[5.729577] (-) TimerEvent: {}
+[5.830069] (-) TimerEvent: {}
+[5.930524] (-) TimerEvent: {}
+[6.030965] (-) TimerEvent: {}
+[6.131398] (-) TimerEvent: {}
+[6.231846] (-) TimerEvent: {}
+[6.332296] (-) TimerEvent: {}
+[6.432740] (-) TimerEvent: {}
+[6.498100] (sherlock) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[6.498335] (sherlock) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[6.498459] (sherlock) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[6.498575] (sherlock) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:15\x1b[m\x1b[K:\n'}
+[6.498683] (sherlock) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MinimalSubscriber2; _Args = {}; _Tp = MinimalSubscriber2]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.498790] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MinimalSubscriber2; _Args = {}; _Tp = MinimalSubscriber2; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MinimalSubscriber2>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.498901] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = MinimalSubscriber2; _Alloc = std::allocator<MinimalSubscriber2>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.499029] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MinimalSubscriber2; _Alloc = std::allocator<MinimalSubscriber2>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.499137] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalSubscriber2>; _Args = {}; _Tp = MinimalSubscriber2; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.499242] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalSubscriber2>; _Args = {}; _Tp = MinimalSubscriber2]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.499346] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MinimalSubscriber2; _Alloc = std::allocator<MinimalSubscriber2>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.499448] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MinimalSubscriber2; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.499550] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:62:52:\x1b[m\x1b[K   required from here\n'}
+[6.499650] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber2::MinimalSubscriber2()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.499752] (sherlock) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[6.499852] (sherlock) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.499952] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:39:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber2::MinimalSubscriber2()\x1b[m\x1b[K\xe2\x80\x99 is implicitly deleted because the default definition would be ill-formed:\n'}
+[6.500066] (sherlock) StderrLine: {'line': b'   39 | class \x1b[01;36m\x1b[KMinimalSubscriber2\x1b[m\x1b[K : public rclcpp::Node\n'}
+[6.500167] (sherlock) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.500267] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:39:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.500401] (sherlock) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.500527] (sherlock) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.500647] (sherlock) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.500750] (sherlock) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:17\x1b[m\x1b[K:\n'}
+[6.500866] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.500971] (sherlock) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[6.501073] (sherlock) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.532899] (-) TimerEvent: {}
+[6.597193] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[6.598023] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.598326] (sherlock) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[6.598577] (sherlock) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.598825] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[6.599079] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.599321] (sherlock) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[6.599554] (sherlock) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.599779] (sherlock) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[6.633021] (-) TimerEvent: {}
+[6.733554] (-) TimerEvent: {}
+[6.834002] (-) TimerEvent: {}
+[6.934414] (-) TimerEvent: {}
+[7.034805] (-) TimerEvent: {}
+[7.135226] (-) TimerEvent: {}
+[7.235621] (-) TimerEvent: {}
+[7.336071] (-) TimerEvent: {}
+[7.436489] (-) TimerEvent: {}
+[7.536915] (-) TimerEvent: {}
+[7.637345] (-) TimerEvent: {}
+[7.737779] (-) TimerEvent: {}
+[7.838225] (-) TimerEvent: {}
+[7.938645] (-) TimerEvent: {}
+[8.039067] (-) TimerEvent: {}
+[8.139465] (-) TimerEvent: {}
+[8.239867] (-) TimerEvent: {}
+[8.340271] (-) TimerEvent: {}
+[8.440668] (-) TimerEvent: {}
+[8.541095] (-) TimerEvent: {}
+[8.641506] (-) TimerEvent: {}
+[8.741954] (-) TimerEvent: {}
+[8.842399] (-) TimerEvent: {}
+[8.942869] (-) TimerEvent: {}
+[9.043310] (-) TimerEvent: {}
+[9.143754] (-) TimerEvent: {}
+[9.244188] (-) TimerEvent: {}
+[9.344640] (-) TimerEvent: {}
+[9.445119] (-) TimerEvent: {}
+[9.512686] (sherlock) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/anderson.dir/build.make:76: CMakeFiles/anderson.dir/src/anderson.cpp.o] Error 1\n'}
+[9.512984] (sherlock) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/anderson.dir/all] Error 2\n'}
+[9.513227] (sherlock) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.516345] (sherlock) CommandEnded: {'returncode': 2}
+[9.545261] (-) TimerEvent: {}
+[9.646202] (-) TimerEvent: {}
+[9.718165] (sherlock) JobEnded: {'identifier': 'sherlock', 'rc': 2}
+[9.729601] (-) EventReactorShutdown: {}

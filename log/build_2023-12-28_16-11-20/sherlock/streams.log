@@ -1,0 +1,48 @@
+[0.228s] Invoking command in '/home/mink/projects/learn_ws/build/sherlock': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mink/projects/learn_ws/build/sherlock -- -j4 -l4
+[0.320s] [35m[1mConsolidate compiler generated dependencies of target anderson[0m
+[0.358s] [ 33%] Built target sherlock1
+[0.374s] [ 66%] Built target sherlock2
+[0.380s] [ 83%] [32mBuilding CXX object CMakeFiles/anderson.dir/src/anderson.cpp.o[0m
+[5.215s] [01m[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:42:21:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.215s]    42 |   MinimalSubscriber([01;31m[K)[m[K
+[5.215s]       |                     [01;31m[K^[m[K
+[6.498s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[6.498s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[6.498s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[6.498s]                  from [01m[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:15[m[K:
+[6.498s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MinimalSubscriber2; _Args = {}; _Tp = MinimalSubscriber2][m[K’:
+[6.498s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MinimalSubscriber2; _Args = {}; _Tp = MinimalSubscriber2; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MinimalSubscriber2>][m[K’
+[6.498s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = MinimalSubscriber2; _Alloc = std::allocator<MinimalSubscriber2>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[6.498s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MinimalSubscriber2; _Alloc = std::allocator<MinimalSubscriber2>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[6.499s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalSubscriber2>; _Args = {}; _Tp = MinimalSubscriber2; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[6.499s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalSubscriber2>; _Args = {}; _Tp = MinimalSubscriber2][m[K’
+[6.499s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MinimalSubscriber2; _Alloc = std::allocator<MinimalSubscriber2>; _Args = {}][m[K’
+[6.499s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MinimalSubscriber2; _Args = {}][m[K’
+[6.499s] [01m[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:62:52:[m[K   required from here
+[6.499s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KMinimalSubscriber2::MinimalSubscriber2()[m[K’
+[6.499s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[6.499s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.499s] [01m[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:39:7:[m[K [01;36m[Knote: [m[K‘[01m[KMinimalSubscriber2::MinimalSubscriber2()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[6.499s]    39 | class [01;36m[KMinimalSubscriber2[m[K : public rclcpp::Node
+[6.500s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.500s] [01m[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:39:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[6.500s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.500s]                  from [01m[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:17[m[K:
+[6.500s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+[6.500s]  1294 |   [01;36m[KNode[m[K(
+[6.500s]       |   [01;36m[K^~~~[m[K
+[6.597s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[6.598s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+[6.598s]   101 |   explicit [01;36m[KNode[m[K(
+[6.598s]       |            [01;36m[K^~~~[m[K
+[6.598s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[6.599s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+[6.599s]    89 |   explicit [01;36m[KNode[m[K(
+[6.599s]       |            [01;36m[K^~~~[m[K
+[6.599s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[9.512s] gmake[2]: *** [CMakeFiles/anderson.dir/build.make:76: CMakeFiles/anderson.dir/src/anderson.cpp.o] Error 1
+[9.512s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/anderson.dir/all] Error 2
+[9.513s] gmake: *** [Makefile:146: all] Error 2
+[9.516s] Invoked command in '/home/mink/projects/learn_ws/build/sherlock' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mink/projects/learn_ws/build/sherlock -- -j4 -l4

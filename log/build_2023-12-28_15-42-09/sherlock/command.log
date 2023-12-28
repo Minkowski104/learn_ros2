@@ -1,0 +1,6 @@
+Invoking command in '/home/mink/projects/learn_ws/build/sherlock': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mink/projects/learn_ws/src/sherlock -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mink/projects/learn_ws/install/sherlock
+Invoked command in '/home/mink/projects/learn_ws/build/sherlock' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mink/projects/learn_ws/src/sherlock -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mink/projects/learn_ws/install/sherlock
+Invoking command in '/home/mink/projects/learn_ws/build/sherlock': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mink/projects/learn_ws/build/sherlock -- -j4 -l4
+Invoked command in '/home/mink/projects/learn_ws/build/sherlock' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mink/projects/learn_ws/build/sherlock -- -j4 -l4
+Invoking command in '/home/mink/projects/learn_ws/build/sherlock': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mink/projects/learn_ws/build/sherlock
+Invoked command in '/home/mink/projects/learn_ws/build/sherlock' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mink/projects/learn_ws/build/sherlock

@@ -1,0 +1,12 @@
+/home/mink/projects/learn_ws/build/sherlock/CMakeFiles/uninstall.dir
+/home/mink/projects/learn_ws/build/sherlock/CMakeFiles/sherlock_uninstall.dir
+/home/mink/projects/learn_ws/build/sherlock/CMakeFiles/sherlock1.dir
+/home/mink/projects/learn_ws/build/sherlock/CMakeFiles/sherlock2.dir
+/home/mink/projects/learn_ws/build/sherlock/CMakeFiles/anderson.dir
+/home/mink/projects/learn_ws/build/sherlock/CMakeFiles/test.dir
+/home/mink/projects/learn_ws/build/sherlock/CMakeFiles/edit_cache.dir
+/home/mink/projects/learn_ws/build/sherlock/CMakeFiles/rebuild_cache.dir
+/home/mink/projects/learn_ws/build/sherlock/CMakeFiles/list_install_components.dir
+/home/mink/projects/learn_ws/build/sherlock/CMakeFiles/install.dir
+/home/mink/projects/learn_ws/build/sherlock/CMakeFiles/install/local.dir
+/home/mink/projects/learn_ws/build/sherlock/CMakeFiles/install/strip.dir

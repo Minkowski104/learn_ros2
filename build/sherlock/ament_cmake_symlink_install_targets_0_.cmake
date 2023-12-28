@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/mink/projects/learn_ws/build/sherlock/sherlock1" "/home/mink/projects/learn_ws/build/sherlock/sherlock2" "/home/mink/projects/learn_ws/build/sherlock/anderson" "TARGETS" "sherlock1" "sherlock2" "anderson" "DESTINATION" "lib/sherlock")

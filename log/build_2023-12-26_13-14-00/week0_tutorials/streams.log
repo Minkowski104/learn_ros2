@@ -1,0 +1,25 @@
+[1.251s] Invoking command in '/home/mink/projects/learn_ws/src/week0_tutorials': PYTHONPATH=/home/mink/projects/learn_ws/build/week0_tutorials/prefix_override:/home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/mink/projects/learn_ws/build/week0_tutorials/build install --record /home/mink/projects/learn_ws/build/week0_tutorials/install.log --single-version-externally-managed
+[1.662s] running egg_info
+[1.663s] writing ../../build/week0_tutorials/week0_tutorials.egg-info/PKG-INFO
+[1.663s] writing dependency_links to ../../build/week0_tutorials/week0_tutorials.egg-info/dependency_links.txt
+[1.664s] writing entry points to ../../build/week0_tutorials/week0_tutorials.egg-info/entry_points.txt
+[1.664s] writing requirements to ../../build/week0_tutorials/week0_tutorials.egg-info/requires.txt
+[1.664s] writing top-level names to ../../build/week0_tutorials/week0_tutorials.egg-info/top_level.txt
+[1.668s] reading manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[1.669s] writing manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[1.669s] running build
+[1.670s] running build_py
+[1.670s] running install
+[1.671s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.671s]   warnings.warn(
+[1.671s] running install_lib
+[1.673s] running install_data
+[1.675s] copying launch/pubsub.launch.py -> /home/mink/projects/learn_ws/install/week0_tutorials/share/week0_tutorials/launch
+[1.675s] running install_egg_info
+[1.678s] removing '/home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials-0.0.0-py3.10.egg-info' (and everything under it)
+[1.678s] Copying ../../build/week0_tutorials/week0_tutorials.egg-info to /home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials-0.0.0-py3.10.egg-info
+[1.680s] running install_scripts
+[1.715s] Installing publisher script to /home/mink/projects/learn_ws/install/week0_tutorials/lib/week0_tutorials
+[1.715s] Installing subsciber script to /home/mink/projects/learn_ws/install/week0_tutorials/lib/week0_tutorials
+[1.716s] writing list of installed files to '/home/mink/projects/learn_ws/build/week0_tutorials/install.log'
+[1.756s] Invoked command in '/home/mink/projects/learn_ws/src/week0_tutorials' returned '0': PYTHONPATH=/home/mink/projects/learn_ws/build/week0_tutorials/prefix_override:/home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/mink/projects/learn_ws/build/week0_tutorials/build install --record /home/mink/projects/learn_ws/build/week0_tutorials/install.log --single-version-externally-managed

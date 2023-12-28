@@ -1,0 +1,22 @@
+[2.065s] Invoking command in '/home/mink/projects/learn_ws/src/build/sherlock': PYTHONPATH=/home/mink/projects/learn_ws/src/build/sherlock/prefix_override:/home/mink/projects/learn_ws/src/install/sherlock/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mink/projects/learn_ws/src/build/sherlock/build --no-deps install_data
+[2.538s] running develop
+[2.540s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.540s]   warnings.warn(
+[2.543s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.543s]   warnings.warn(
+[2.849s] running egg_info
+[2.849s] writing sherlock.egg-info/PKG-INFO
+[2.850s] writing dependency_links to sherlock.egg-info/dependency_links.txt
+[2.851s] writing entry points to sherlock.egg-info/entry_points.txt
+[2.851s] writing requirements to sherlock.egg-info/requires.txt
+[2.851s] writing top-level names to sherlock.egg-info/top_level.txt
+[2.855s] reading manifest file 'sherlock.egg-info/SOURCES.txt'
+[2.857s] writing manifest file 'sherlock.egg-info/SOURCES.txt'
+[2.859s] running build_ext
+[2.860s] Creating /home/mink/projects/learn_ws/src/install/sherlock/lib/python3.10/site-packages/sherlock.egg-link (link to .)
+[2.862s] Installing sherlock1 script to /home/mink/projects/learn_ws/src/install/sherlock/lib/sherlock
+[2.863s] 
+[2.863s] Installed /home/mink/projects/learn_ws/src/build/sherlock
+[2.863s] running install_data
+[2.864s] copying launch/sherlock_andy.launch.py -> /home/mink/projects/learn_ws/src/install/sherlock/share/sherlock
+[3.042s] Invoked command in '/home/mink/projects/learn_ws/src/build/sherlock' returned '0': PYTHONPATH=/home/mink/projects/learn_ws/src/build/sherlock/prefix_override:/home/mink/projects/learn_ws/src/install/sherlock/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mink/projects/learn_ws/src/build/sherlock/build --no-deps install_data

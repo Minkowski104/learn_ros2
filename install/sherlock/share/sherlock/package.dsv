@@ -1,0 +1,11 @@
+source;share/sherlock/hook/cmake_prefix_path.ps1
+source;share/sherlock/hook/cmake_prefix_path.dsv
+source;share/sherlock/hook/cmake_prefix_path.sh
+source;share/sherlock/hook/pythonpath.ps1
+source;share/sherlock/hook/pythonpath.dsv
+source;share/sherlock/hook/pythonpath.sh
+source;share/sherlock/local_setup.bash
+source;share/sherlock/local_setup.dsv
+source;share/sherlock/local_setup.ps1
+source;share/sherlock/local_setup.sh
+source;share/sherlock/local_setup.zsh

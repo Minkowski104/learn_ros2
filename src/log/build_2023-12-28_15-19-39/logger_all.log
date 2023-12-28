@@ -1,0 +1,171 @@
+[1.723s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.723s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdaa8080a30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdaa8335bd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdaa8335bd0>>)
+[1.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.807s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mink/projects/learn_ws/src'
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(sherlock) by extensions ['ignore', 'ignore_ament_install']
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(sherlock) by extension 'ignore'
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(sherlock) by extension 'ignore_ament_install'
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(sherlock) by extensions ['colcon_pkg']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(sherlock) by extension 'colcon_pkg'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(sherlock) by extensions ['colcon_meta']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(sherlock) by extension 'colcon_meta'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(sherlock) by extensions ['ros']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(sherlock) by extension 'ros'
+[1.834s] DEBUG:colcon.colcon_core.package_identification:Package 'sherlock' with type 'ros.ament_python' and name 'sherlock'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(week0_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(week0_tutorials) by extension 'ignore'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(week0_tutorials) by extension 'ignore_ament_install'
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(week0_tutorials) by extensions ['colcon_pkg']
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(week0_tutorials) by extension 'colcon_pkg'
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(week0_tutorials) by extensions ['colcon_meta']
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(week0_tutorials) by extension 'colcon_meta'
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(week0_tutorials) by extensions ['ros']
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(week0_tutorials) by extension 'ros'
+[1.836s] DEBUG:colcon.colcon_core.package_identification:Package 'week0_tutorials' with type 'ros.ament_python' and name 'week0_tutorials'
+[1.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.996s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.996s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.048s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/mink/projects/learn_ws/install
+[2.075s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[2.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.232s] Level 5:colcon.colcon_core.verb:set package 'sherlock' build argument 'cmake_args' from command line to 'None'
+[2.232s] Level 5:colcon.colcon_core.verb:set package 'sherlock' build argument 'cmake_target' from command line to 'None'
+[2.232s] Level 5:colcon.colcon_core.verb:set package 'sherlock' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.232s] Level 5:colcon.colcon_core.verb:set package 'sherlock' build argument 'cmake_clean_cache' from command line to 'False'
+[2.232s] Level 5:colcon.colcon_core.verb:set package 'sherlock' build argument 'cmake_clean_first' from command line to 'False'
+[2.232s] Level 5:colcon.colcon_core.verb:set package 'sherlock' build argument 'cmake_force_configure' from command line to 'False'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'sherlock' build argument 'ament_cmake_args' from command line to 'None'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'sherlock' build argument 'catkin_cmake_args' from command line to 'None'
+[2.233s] Level 5:colcon.colcon_core.verb:set package 'sherlock' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.233s] DEBUG:colcon.colcon_core.verb:Building package 'sherlock' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mink/projects/learn_ws/src/build/sherlock', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mink/projects/learn_ws/src/install/sherlock', 'merge_install': False, 'path': '/home/mink/projects/learn_ws/src/sherlock', 'symlink_install': True, 'test_result_base': None}
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'cmake_args' from command line to 'None'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'cmake_target' from command line to 'None'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.258s] DEBUG:colcon.colcon_core.verb:Building package 'week0_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mink/projects/learn_ws/src/build/week0_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mink/projects/learn_ws/src/install/week0_tutorials', 'merge_install': False, 'path': '/home/mink/projects/learn_ws/src/week0_tutorials', 'symlink_install': True, 'test_result_base': None}
+[2.283s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.317s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mink/projects/learn_ws/src/sherlock' with build type 'ament_python'
+[2.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('sherlock', 'ament_prefix_path')
+[2.362s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mink/projects/learn_ws/src/install/sherlock/share/sherlock/hook/ament_prefix_path.ps1'
+[2.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mink/projects/learn_ws/src/install/sherlock/share/sherlock/hook/ament_prefix_path.dsv'
+[2.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mink/projects/learn_ws/src/install/sherlock/share/sherlock/hook/ament_prefix_path.sh'
+[2.393s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.393s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.487s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mink/projects/learn_ws/src/week0_tutorials' with build type 'ament_python'
+[2.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('week0_tutorials', 'ament_prefix_path')
+[2.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mink/projects/learn_ws/src/install/week0_tutorials/share/week0_tutorials/hook/ament_prefix_path.ps1'
+[2.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mink/projects/learn_ws/src/install/week0_tutorials/share/week0_tutorials/hook/ament_prefix_path.dsv'
+[2.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mink/projects/learn_ws/src/install/week0_tutorials/share/week0_tutorials/hook/ament_prefix_path.sh'
+[2.547s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.547s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.091s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mink/projects/learn_ws/src/sherlock'
+[3.116s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.116s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.649s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mink/projects/learn_ws/src/week0_tutorials'
+[3.677s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.677s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mink/projects/learn_ws/src/build/sherlock': PYTHONPATH=/home/mink/projects/learn_ws/src/build/sherlock/prefix_override:/home/mink/projects/learn_ws/src/install/sherlock/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mink/projects/learn_ws/src/build/sherlock/build --no-deps install_data
+[4.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mink/projects/learn_ws/src/build/week0_tutorials': PYTHONPATH=/home/mink/projects/learn_ws/src/build/week0_tutorials/prefix_override:/home/mink/projects/learn_ws/src/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mink/projects/learn_ws/src/build/week0_tutorials/build --no-deps install_data
+[5.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('sherlock', 'pythonpath_develop')
+[5.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mink/projects/learn_ws/src/build/sherlock' returned '0': PYTHONPATH=/home/mink/projects/learn_ws/src/build/sherlock/prefix_override:/home/mink/projects/learn_ws/src/install/sherlock/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mink/projects/learn_ws/src/build/sherlock/build --no-deps install_data
+[5.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mink/projects/learn_ws/src/build/sherlock/share/sherlock/hook/pythonpath_develop.ps1'
+[5.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mink/projects/learn_ws/src/build/sherlock/share/sherlock/hook/pythonpath_develop.dsv'
+[5.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mink/projects/learn_ws/src/build/sherlock/share/sherlock/hook/pythonpath_develop.sh'
+[5.411s] Level 1:colcon.colcon_core.environment:checking '/home/mink/projects/learn_ws/src/install/sherlock' for CMake module files
+[5.412s] Level 1:colcon.colcon_core.environment:checking '/home/mink/projects/learn_ws/src/install/sherlock' for CMake config files
+[5.413s] Level 1:colcon.colcon_core.environment:checking '/home/mink/projects/learn_ws/src/install/sherlock/lib'
+[5.414s] Level 1:colcon.colcon_core.environment:checking '/home/mink/projects/learn_ws/src/install/sherlock/bin'
+[5.414s] Level 1:colcon.colcon_core.environment:checking '/home/mink/projects/learn_ws/src/install/sherlock/lib/pkgconfig/sherlock.pc'
+[5.414s] Level 1:colcon.colcon_core.environment:checking '/home/mink/projects/learn_ws/src/install/sherlock/lib/python3.10/site-packages'
+[5.414s] Level 1:colcon.colcon_core.shell:create_environment_hook('sherlock', 'pythonpath')
+[5.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mink/projects/learn_ws/src/install/sherlock/share/sherlock/hook/pythonpath.ps1'
+[5.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mink/projects/learn_ws/src/install/sherlock/share/sherlock/hook/pythonpath.dsv'
+[5.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mink/projects/learn_ws/src/install/sherlock/share/sherlock/hook/pythonpath.sh'
+[5.442s] Level 1:colcon.colcon_core.environment:checking '/home/mink/projects/learn_ws/src/install/sherlock/bin'
+[5.442s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sherlock)
+[5.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/mink/projects/learn_ws/src/install/sherlock/share/sherlock/package.ps1'
+[5.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mink/projects/learn_ws/src/install/sherlock/share/sherlock/package.dsv'
+[5.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/mink/projects/learn_ws/src/install/sherlock/share/sherlock/package.sh'
+[5.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/mink/projects/learn_ws/src/install/sherlock/share/sherlock/package.bash'
+[5.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/mink/projects/learn_ws/src/install/sherlock/share/sherlock/package.zsh'
+[5.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mink/projects/learn_ws/src/install/sherlock/share/colcon-core/packages/sherlock)
+[5.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('week0_tutorials', 'pythonpath_develop')
+[5.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mink/projects/learn_ws/src/build/week0_tutorials' returned '0': PYTHONPATH=/home/mink/projects/learn_ws/src/build/week0_tutorials/prefix_override:/home/mink/projects/learn_ws/src/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mink/projects/learn_ws/src/build/week0_tutorials/build --no-deps install_data
+[5.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mink/projects/learn_ws/src/build/week0_tutorials/share/week0_tutorials/hook/pythonpath_develop.ps1'
+[5.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mink/projects/learn_ws/src/build/week0_tutorials/share/week0_tutorials/hook/pythonpath_develop.dsv'
+[5.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mink/projects/learn_ws/src/build/week0_tutorials/share/week0_tutorials/hook/pythonpath_develop.sh'
+[5.532s] Level 1:colcon.colcon_core.environment:checking '/home/mink/projects/learn_ws/src/install/week0_tutorials' for CMake module files
+[5.533s] Level 1:colcon.colcon_core.environment:checking '/home/mink/projects/learn_ws/src/install/week0_tutorials' for CMake config files
+[5.534s] Level 1:colcon.colcon_core.environment:checking '/home/mink/projects/learn_ws/src/install/week0_tutorials/lib'
+[5.534s] Level 1:colcon.colcon_core.environment:checking '/home/mink/projects/learn_ws/src/install/week0_tutorials/bin'
+[5.534s] Level 1:colcon.colcon_core.environment:checking '/home/mink/projects/learn_ws/src/install/week0_tutorials/lib/pkgconfig/week0_tutorials.pc'
+[5.534s] Level 1:colcon.colcon_core.environment:checking '/home/mink/projects/learn_ws/src/install/week0_tutorials/lib/python3.10/site-packages'
+[5.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('week0_tutorials', 'pythonpath')
+[5.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mink/projects/learn_ws/src/install/week0_tutorials/share/week0_tutorials/hook/pythonpath.ps1'
+[5.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mink/projects/learn_ws/src/install/week0_tutorials/share/week0_tutorials/hook/pythonpath.dsv'
+[5.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mink/projects/learn_ws/src/install/week0_tutorials/share/week0_tutorials/hook/pythonpath.sh'
+[5.564s] Level 1:colcon.colcon_core.environment:checking '/home/mink/projects/learn_ws/src/install/week0_tutorials/bin'
+[5.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(week0_tutorials)
+[5.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/mink/projects/learn_ws/src/install/week0_tutorials/share/week0_tutorials/package.ps1'
+[5.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mink/projects/learn_ws/src/install/week0_tutorials/share/week0_tutorials/package.dsv'
+[5.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/mink/projects/learn_ws/src/install/week0_tutorials/share/week0_tutorials/package.sh'
+[5.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/mink/projects/learn_ws/src/install/week0_tutorials/share/week0_tutorials/package.bash'
+[5.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/mink/projects/learn_ws/src/install/week0_tutorials/share/week0_tutorials/package.zsh'
+[5.597s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mink/projects/learn_ws/src/install/week0_tutorials/share/colcon-core/packages/week0_tutorials)
+[5.597s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.598s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.599s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.599s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.635s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.654s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.681s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mink/projects/learn_ws/src/install/local_setup.ps1'
+[5.683s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mink/projects/learn_ws/src/install/_local_setup_util_ps1.py'
+[5.686s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mink/projects/learn_ws/src/install/setup.ps1'
+[5.713s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mink/projects/learn_ws/src/install/local_setup.sh'
+[5.714s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mink/projects/learn_ws/src/install/_local_setup_util_sh.py'
+[5.715s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mink/projects/learn_ws/src/install/setup.sh'
+[5.743s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mink/projects/learn_ws/src/install/local_setup.bash'
+[5.744s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mink/projects/learn_ws/src/install/setup.bash'
+[5.771s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mink/projects/learn_ws/src/install/local_setup.zsh'
+[5.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mink/projects/learn_ws/src/install/setup.zsh'

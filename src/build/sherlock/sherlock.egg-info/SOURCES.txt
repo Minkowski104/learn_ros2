@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+launch/sherlock_andy.launch.py
+resource/sherlock
+sherlock/__init__.py
+sherlock/sherlock_talker1.py
+sherlock/sherlock_talker2.py
+sherlock.egg-info/PKG-INFO
+sherlock.egg-info/SOURCES.txt
+sherlock.egg-info/dependency_links.txt
+sherlock.egg-info/entry_points.txt
+sherlock.egg-info/requires.txt
+sherlock.egg-info/top_level.txt
+sherlock.egg-info/zip-safe

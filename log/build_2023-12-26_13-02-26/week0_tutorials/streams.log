@@ -1,0 +1,43 @@
+[1.607s] Invoking command in '/home/mink/projects/learn_ws/src/week0_tutorials': PYTHONPATH=/home/mink/projects/learn_ws/build/week0_tutorials/prefix_override:/home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/mink/projects/learn_ws/build/week0_tutorials/build install --record /home/mink/projects/learn_ws/build/week0_tutorials/install.log --single-version-externally-managed
+[2.012s] running egg_info
+[2.014s] creating ../../build/week0_tutorials/week0_tutorials.egg-info
+[2.014s] writing ../../build/week0_tutorials/week0_tutorials.egg-info/PKG-INFO
+[2.014s] writing dependency_links to ../../build/week0_tutorials/week0_tutorials.egg-info/dependency_links.txt
+[2.015s] writing entry points to ../../build/week0_tutorials/week0_tutorials.egg-info/entry_points.txt
+[2.015s] writing requirements to ../../build/week0_tutorials/week0_tutorials.egg-info/requires.txt
+[2.015s] writing top-level names to ../../build/week0_tutorials/week0_tutorials.egg-info/top_level.txt
+[2.015s] writing manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[2.018s] reading manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[2.019s] writing manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[2.019s] running build
+[2.020s] running build_py
+[2.020s] creating /home/mink/projects/learn_ws/build/week0_tutorials/build
+[2.020s] creating /home/mink/projects/learn_ws/build/week0_tutorials/build/lib
+[2.020s] creating /home/mink/projects/learn_ws/build/week0_tutorials/build/lib/week0_tutorials
+[2.021s] copying week0_tutorials/talker.py -> /home/mink/projects/learn_ws/build/week0_tutorials/build/lib/week0_tutorials
+[2.021s] copying week0_tutorials/listener.py -> /home/mink/projects/learn_ws/build/week0_tutorials/build/lib/week0_tutorials
+[2.021s] copying week0_tutorials/__init__.py -> /home/mink/projects/learn_ws/build/week0_tutorials/build/lib/week0_tutorials
+[2.021s] running install
+[2.035s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.036s]   warnings.warn(
+[2.036s] running install_lib
+[2.037s] creating /home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials
+[2.038s] copying /home/mink/projects/learn_ws/build/week0_tutorials/build/lib/week0_tutorials/talker.py -> /home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials
+[2.038s] copying /home/mink/projects/learn_ws/build/week0_tutorials/build/lib/week0_tutorials/listener.py -> /home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials
+[2.038s] copying /home/mink/projects/learn_ws/build/week0_tutorials/build/lib/week0_tutorials/__init__.py -> /home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials
+[2.039s] byte-compiling /home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials/talker.py to talker.cpython-310.pyc
+[2.040s] byte-compiling /home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials/listener.py to listener.cpython-310.pyc
+[2.041s] byte-compiling /home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials/__init__.py to __init__.cpython-310.pyc
+[2.041s] running install_data
+[2.042s] creating /home/mink/projects/learn_ws/install/week0_tutorials/share/ament_index
+[2.042s] creating /home/mink/projects/learn_ws/install/week0_tutorials/share/ament_index/resource_index
+[2.042s] creating /home/mink/projects/learn_ws/install/week0_tutorials/share/ament_index/resource_index/packages
+[2.042s] copying resource/week0_tutorials -> /home/mink/projects/learn_ws/install/week0_tutorials/share/ament_index/resource_index/packages
+[2.043s] copying package.xml -> /home/mink/projects/learn_ws/install/week0_tutorials/share/week0_tutorials
+[2.043s] running install_egg_info
+[2.046s] Copying ../../build/week0_tutorials/week0_tutorials.egg-info to /home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials-0.0.0-py3.10.egg-info
+[2.048s] running install_scripts
+[2.083s] Installing publisher script to /home/mink/projects/learn_ws/install/week0_tutorials/lib/week0_tutorials
+[2.084s] Installing subsciber script to /home/mink/projects/learn_ws/install/week0_tutorials/lib/week0_tutorials
+[2.084s] writing list of installed files to '/home/mink/projects/learn_ws/build/week0_tutorials/install.log'
+[2.123s] Invoked command in '/home/mink/projects/learn_ws/src/week0_tutorials' returned '0': PYTHONPATH=/home/mink/projects/learn_ws/build/week0_tutorials/prefix_override:/home/mink/projects/learn_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/mink/projects/learn_ws/build/week0_tutorials/build install --record /home/mink/projects/learn_ws/build/week0_tutorials/install.log --single-version-externally-managed

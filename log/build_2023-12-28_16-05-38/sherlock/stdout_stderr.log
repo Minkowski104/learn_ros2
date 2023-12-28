@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target sherlock2[0m
+[35m[1mConsolidate compiler generated dependencies of target sherlock1[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/anderson.dir/src/anderson.cpp.o[0m
+[ 50%] Built target sherlock1
+[ 83%] Built target sherlock2
+[01m[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription1[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_[m[K’?
+   27 |     [01;31m[Ksubscription1[m[K = this->create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Ksubscription_[m[K
+[01m[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription2[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_[m[K’?
+   29 |     [01;31m[Ksubscription2[m[K = this->create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Ksubscription_[m[K
+gmake[2]: *** [CMakeFiles/anderson.dir/build.make:76: CMakeFiles/anderson.dir/src/anderson.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/anderson.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

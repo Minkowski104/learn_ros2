@@ -1,0 +1,3 @@
+[console_scripts]
+sherlock1 = sherlock.sherlcok_talker1:main
+

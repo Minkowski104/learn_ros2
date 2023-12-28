@@ -1,0 +1,19 @@
+[0.255s] Invoking command in '/home/mink/projects/learn_ws/build/sherlock': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mink/projects/learn_ws/build/sherlock -- -j4 -l4
+[0.339s] [35m[1mConsolidate compiler generated dependencies of target sherlock2[0m
+[0.350s] [35m[1mConsolidate compiler generated dependencies of target sherlock1[0m
+[0.392s] [ 16%] [32mBuilding CXX object CMakeFiles/anderson.dir/src/anderson.cpp.o[0m
+[0.405s] [ 50%] Built target sherlock1
+[0.434s] [ 83%] Built target sherlock2
+[4.682s] [01m[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[4.682s] [01m[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription1[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_[m[K’?
+[4.682s]    27 |     [01;31m[Ksubscription1[m[K = this->create_subscription<std_msgs::msg::String>(
+[4.683s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[4.683s]       |     [32m[Ksubscription_[m[K
+[4.703s] [01m[K/home/mink/projects/learn_ws/src/sherlock/src/anderson.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription2[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_[m[K’?
+[4.703s]    29 |     [01;31m[Ksubscription2[m[K = this->create_subscription<std_msgs::msg::String>(
+[4.703s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[4.703s]       |     [32m[Ksubscription_[m[K
+[8.347s] gmake[2]: *** [CMakeFiles/anderson.dir/build.make:76: CMakeFiles/anderson.dir/src/anderson.cpp.o] Error 1
+[8.348s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/anderson.dir/all] Error 2
+[8.348s] gmake: *** [Makefile:146: all] Error 2
+[8.352s] Invoked command in '/home/mink/projects/learn_ws/build/sherlock' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mink/projects/learn_ws/build/sherlock -- -j4 -l4

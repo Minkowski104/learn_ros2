@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target anderson[0m
+[ 33%] Built target sherlock1
+[ 66%] Built target sherlock2
+[ 83%] [32mBuilding CXX object CMakeFiles/anderson.dir/src/anderson.cpp.o[0m

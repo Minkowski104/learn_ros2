@@ -1,0 +1,4 @@
+source;share/sherlock/local_setup.bash
+source;share/sherlock/local_setup.dsv
+source;share/sherlock/local_setup.sh
+source;share/sherlock/local_setup.zsh

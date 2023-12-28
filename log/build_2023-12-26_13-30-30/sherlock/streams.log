@@ -1,0 +1,41 @@
+[1.995s] Invoking command in '/home/mink/projects/learn_ws/src/sherlock': PYTHONPATH=/home/mink/projects/learn_ws/build/sherlock/prefix_override:/home/mink/projects/learn_ws/install/sherlock/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sherlock build --build-base /home/mink/projects/learn_ws/build/sherlock/build install --record /home/mink/projects/learn_ws/build/sherlock/install.log --single-version-externally-managed
+[2.427s] running egg_info
+[2.428s] creating ../../build/sherlock/sherlock.egg-info
+[2.428s] writing ../../build/sherlock/sherlock.egg-info/PKG-INFO
+[2.429s] writing dependency_links to ../../build/sherlock/sherlock.egg-info/dependency_links.txt
+[2.429s] writing entry points to ../../build/sherlock/sherlock.egg-info/entry_points.txt
+[2.429s] writing requirements to ../../build/sherlock/sherlock.egg-info/requires.txt
+[2.430s] writing top-level names to ../../build/sherlock/sherlock.egg-info/top_level.txt
+[2.430s] writing manifest file '../../build/sherlock/sherlock.egg-info/SOURCES.txt'
+[2.433s] reading manifest file '../../build/sherlock/sherlock.egg-info/SOURCES.txt'
+[2.434s] writing manifest file '../../build/sherlock/sherlock.egg-info/SOURCES.txt'
+[2.435s] running build
+[2.435s] running build_py
+[2.436s] creating /home/mink/projects/learn_ws/build/sherlock/build
+[2.436s] creating /home/mink/projects/learn_ws/build/sherlock/build/lib
+[2.436s] creating /home/mink/projects/learn_ws/build/sherlock/build/lib/sherlock
+[2.437s] copying sherlock/sherlock_talker2.py -> /home/mink/projects/learn_ws/build/sherlock/build/lib/sherlock
+[2.437s] copying sherlock/sherlock_talker1.py -> /home/mink/projects/learn_ws/build/sherlock/build/lib/sherlock
+[2.437s] copying sherlock/__init__.py -> /home/mink/projects/learn_ws/build/sherlock/build/lib/sherlock
+[2.438s] running install
+[2.438s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.438s]   warnings.warn(
+[2.439s] running install_lib
+[2.440s] creating /home/mink/projects/learn_ws/install/sherlock/lib/python3.10/site-packages/sherlock
+[2.441s] copying /home/mink/projects/learn_ws/build/sherlock/build/lib/sherlock/sherlock_talker2.py -> /home/mink/projects/learn_ws/install/sherlock/lib/python3.10/site-packages/sherlock
+[2.441s] copying /home/mink/projects/learn_ws/build/sherlock/build/lib/sherlock/sherlock_talker1.py -> /home/mink/projects/learn_ws/install/sherlock/lib/python3.10/site-packages/sherlock
+[2.441s] copying /home/mink/projects/learn_ws/build/sherlock/build/lib/sherlock/__init__.py -> /home/mink/projects/learn_ws/install/sherlock/lib/python3.10/site-packages/sherlock
+[2.442s] byte-compiling /home/mink/projects/learn_ws/install/sherlock/lib/python3.10/site-packages/sherlock/sherlock_talker2.py to sherlock_talker2.cpython-310.pyc
+[2.443s] byte-compiling /home/mink/projects/learn_ws/install/sherlock/lib/python3.10/site-packages/sherlock/sherlock_talker1.py to sherlock_talker1.cpython-310.pyc
+[2.444s] byte-compiling /home/mink/projects/learn_ws/install/sherlock/lib/python3.10/site-packages/sherlock/__init__.py to __init__.cpython-310.pyc
+[2.444s] running install_data
+[2.445s] creating /home/mink/projects/learn_ws/install/sherlock/share/ament_index
+[2.446s] creating /home/mink/projects/learn_ws/install/sherlock/share/ament_index/resource_index
+[2.446s] creating /home/mink/projects/learn_ws/install/sherlock/share/ament_index/resource_index/packages
+[2.446s] copying resource/sherlock -> /home/mink/projects/learn_ws/install/sherlock/share/ament_index/resource_index/packages
+[2.446s] copying package.xml -> /home/mink/projects/learn_ws/install/sherlock/share/sherlock
+[2.447s] running install_egg_info
+[2.450s] Copying ../../build/sherlock/sherlock.egg-info to /home/mink/projects/learn_ws/install/sherlock/lib/python3.10/site-packages/sherlock-0.0.0-py3.10.egg-info
+[2.452s] running install_scripts
+[2.491s] writing list of installed files to '/home/mink/projects/learn_ws/build/sherlock/install.log'
+[2.625s] Invoked command in '/home/mink/projects/learn_ws/src/sherlock' returned '0': PYTHONPATH=/home/mink/projects/learn_ws/build/sherlock/prefix_override:/home/mink/projects/learn_ws/install/sherlock/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sherlock build --build-base /home/mink/projects/learn_ws/build/sherlock/build install --record /home/mink/projects/learn_ws/build/sherlock/install.log --single-version-externally-managed
