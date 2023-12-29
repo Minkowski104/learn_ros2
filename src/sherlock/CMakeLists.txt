@@ -29,7 +29,7 @@ add_executable(sherlock1 src/sherlock1.cpp)
 ament_target_dependencies(sherlock1 rclcpp std_msgs)
 
 
-add_executable(sherlock2 src/sherlock1.cpp)
+add_executable(sherlock2 src/sherlock2.cpp)
 ament_target_dependencies(sherlock2 rclcpp std_msgs)
 
 

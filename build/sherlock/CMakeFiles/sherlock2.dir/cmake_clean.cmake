@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sherlock2.dir/src/sherlock1.cpp.o"
-  "CMakeFiles/sherlock2.dir/src/sherlock1.cpp.o.d"
+  "CMakeFiles/sherlock2.dir/src/sherlock2.cpp.o"
+  "CMakeFiles/sherlock2.dir/src/sherlock2.cpp.o.d"
   "sherlock2"
   "sherlock2.pdb"
 )

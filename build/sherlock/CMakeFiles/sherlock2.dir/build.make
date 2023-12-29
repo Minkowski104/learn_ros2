@@ -69,28 +69,28 @@ include CMakeFiles/sherlock2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/sherlock2.dir/flags.make
 
-CMakeFiles/sherlock2.dir/src/sherlock1.cpp.o: CMakeFiles/sherlock2.dir/flags.make
-CMakeFiles/sherlock2.dir/src/sherlock1.cpp.o: /home/mink/projects/learn_ws/src/sherlock/src/sherlock1.cpp
-CMakeFiles/sherlock2.dir/src/sherlock1.cpp.o: CMakeFiles/sherlock2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mink/projects/learn_ws/build/sherlock/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sherlock2.dir/src/sherlock1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sherlock2.dir/src/sherlock1.cpp.o -MF CMakeFiles/sherlock2.dir/src/sherlock1.cpp.o.d -o CMakeFiles/sherlock2.dir/src/sherlock1.cpp.o -c /home/mink/projects/learn_ws/src/sherlock/src/sherlock1.cpp
+CMakeFiles/sherlock2.dir/src/sherlock2.cpp.o: CMakeFiles/sherlock2.dir/flags.make
+CMakeFiles/sherlock2.dir/src/sherlock2.cpp.o: /home/mink/projects/learn_ws/src/sherlock/src/sherlock2.cpp
+CMakeFiles/sherlock2.dir/src/sherlock2.cpp.o: CMakeFiles/sherlock2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mink/projects/learn_ws/build/sherlock/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sherlock2.dir/src/sherlock2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sherlock2.dir/src/sherlock2.cpp.o -MF CMakeFiles/sherlock2.dir/src/sherlock2.cpp.o.d -o CMakeFiles/sherlock2.dir/src/sherlock2.cpp.o -c /home/mink/projects/learn_ws/src/sherlock/src/sherlock2.cpp
 
-CMakeFiles/sherlock2.dir/src/sherlock1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sherlock2.dir/src/sherlock1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mink/projects/learn_ws/src/sherlock/src/sherlock1.cpp > CMakeFiles/sherlock2.dir/src/sherlock1.cpp.i
+CMakeFiles/sherlock2.dir/src/sherlock2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sherlock2.dir/src/sherlock2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mink/projects/learn_ws/src/sherlock/src/sherlock2.cpp > CMakeFiles/sherlock2.dir/src/sherlock2.cpp.i
 
-CMakeFiles/sherlock2.dir/src/sherlock1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sherlock2.dir/src/sherlock1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mink/projects/learn_ws/src/sherlock/src/sherlock1.cpp -o CMakeFiles/sherlock2.dir/src/sherlock1.cpp.s
+CMakeFiles/sherlock2.dir/src/sherlock2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sherlock2.dir/src/sherlock2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mink/projects/learn_ws/src/sherlock/src/sherlock2.cpp -o CMakeFiles/sherlock2.dir/src/sherlock2.cpp.s
 
 # Object files for target sherlock2
 sherlock2_OBJECTS = \
-"CMakeFiles/sherlock2.dir/src/sherlock1.cpp.o"
+"CMakeFiles/sherlock2.dir/src/sherlock2.cpp.o"
 
 # External object files for target sherlock2
 sherlock2_EXTERNAL_OBJECTS =
 
-sherlock2: CMakeFiles/sherlock2.dir/src/sherlock1.cpp.o
+sherlock2: CMakeFiles/sherlock2.dir/src/sherlock2.cpp.o
 sherlock2: CMakeFiles/sherlock2.dir/build.make
 sherlock2: /opt/ros/humble/lib/librclcpp.so
 sherlock2: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so

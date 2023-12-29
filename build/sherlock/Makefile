@@ -266,7 +266,6 @@ src/sherlock1.o: src/sherlock1.cpp.o
 # target to build an object file
 src/sherlock1.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sherlock1.dir/build.make CMakeFiles/sherlock1.dir/src/sherlock1.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sherlock2.dir/build.make CMakeFiles/sherlock2.dir/src/sherlock1.cpp.o
 .PHONY : src/sherlock1.cpp.o
 
 src/sherlock1.i: src/sherlock1.cpp.i
@@ -275,7 +274,6 @@ src/sherlock1.i: src/sherlock1.cpp.i
 # target to preprocess a source file
 src/sherlock1.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sherlock1.dir/build.make CMakeFiles/sherlock1.dir/src/sherlock1.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sherlock2.dir/build.make CMakeFiles/sherlock2.dir/src/sherlock1.cpp.i
 .PHONY : src/sherlock1.cpp.i
 
 src/sherlock1.s: src/sherlock1.cpp.s
@@ -284,8 +282,31 @@ src/sherlock1.s: src/sherlock1.cpp.s
 # target to generate assembly for a file
 src/sherlock1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sherlock1.dir/build.make CMakeFiles/sherlock1.dir/src/sherlock1.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sherlock2.dir/build.make CMakeFiles/sherlock2.dir/src/sherlock1.cpp.s
 .PHONY : src/sherlock1.cpp.s
+
+src/sherlock2.o: src/sherlock2.cpp.o
+.PHONY : src/sherlock2.o
+
+# target to build an object file
+src/sherlock2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sherlock2.dir/build.make CMakeFiles/sherlock2.dir/src/sherlock2.cpp.o
+.PHONY : src/sherlock2.cpp.o
+
+src/sherlock2.i: src/sherlock2.cpp.i
+.PHONY : src/sherlock2.i
+
+# target to preprocess a source file
+src/sherlock2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sherlock2.dir/build.make CMakeFiles/sherlock2.dir/src/sherlock2.cpp.i
+.PHONY : src/sherlock2.cpp.i
+
+src/sherlock2.s: src/sherlock2.cpp.s
+.PHONY : src/sherlock2.s
+
+# target to generate assembly for a file
+src/sherlock2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sherlock2.dir/build.make CMakeFiles/sherlock2.dir/src/sherlock2.cpp.s
+.PHONY : src/sherlock2.cpp.s
 
 # Help Target
 help:
@@ -311,6 +332,9 @@ help:
 	@echo "... src/sherlock1.o"
 	@echo "... src/sherlock1.i"
 	@echo "... src/sherlock1.s"
+	@echo "... src/sherlock2.o"
+	@echo "... src/sherlock2.i"
+	@echo "... src/sherlock2.s"
 .PHONY : help
 
 

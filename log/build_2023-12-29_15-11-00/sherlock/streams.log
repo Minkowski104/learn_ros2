@@ -1,0 +1,33 @@
+[0.209s] Invoking command in '/home/mink/projects/learn_ws/build/sherlock': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mink/projects/learn_ws/build/sherlock -- -j4 -l4
+[0.300s] [35m[1mConsolidate compiler generated dependencies of target sherlock2[0m
+[0.300s] [35m[1mConsolidate compiler generated dependencies of target sherlock1[0m
+[0.340s] [ 33%] Built target anderson
+[0.351s] [ 50%] [32mBuilding CXX object CMakeFiles/sherlock2.dir/src/sherlock2.cpp.o[0m
+[0.354s] [ 66%] [32mBuilding CXX object CMakeFiles/sherlock1.dir/src/sherlock1.cpp.o[0m
+[9.061s] [ 83%] [32m[1mLinking CXX executable sherlock1[0m
+[9.462s] [100%] [32m[1mLinking CXX executable sherlock2[0m
+[9.471s] [100%] Built target sherlock1
+[9.838s] [100%] Built target sherlock2
+[9.858s] Invoked command in '/home/mink/projects/learn_ws/build/sherlock' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mink/projects/learn_ws/build/sherlock -- -j4 -l4
+[9.932s] Invoking command in '/home/mink/projects/learn_ws/build/sherlock': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mink/projects/learn_ws/build/sherlock
+[9.945s] -- Install configuration: ""
+[9.947s] -- Execute custom install script
+[9.948s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/lib/sherlock/sherlock1
+[9.948s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/lib/sherlock/sherlock2
+[9.949s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/lib/sherlock/anderson
+[9.949s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/ament_index/resource_index/package_run_dependencies/sherlock
+[9.950s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/ament_index/resource_index/parent_prefix_path/sherlock
+[9.950s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/environment/ament_prefix_path.sh
+[9.950s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/environment/ament_prefix_path.dsv
+[9.951s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/environment/path.sh
+[9.951s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/environment/path.dsv
+[9.951s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/local_setup.bash
+[9.952s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/local_setup.sh
+[9.952s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/local_setup.zsh
+[9.953s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/local_setup.dsv
+[9.953s] -- Symlinking: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/package.dsv
+[9.968s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/ament_index/resource_index/packages/sherlock
+[9.969s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/cmake/sherlockConfig.cmake
+[9.969s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/cmake/sherlockConfig-version.cmake
+[9.969s] -- Up-to-date symlink: /home/mink/projects/learn_ws/install/sherlock/share/sherlock/package.xml
+[9.973s] Invoked command in '/home/mink/projects/learn_ws/build/sherlock' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mink/projects/learn_ws/build/sherlock
